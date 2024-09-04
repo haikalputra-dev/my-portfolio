@@ -20,10 +20,11 @@ module.exports = {
         "2xl": "1400px",
       },
     },
-    fontFamily:{
-      primary: "var(--font-jetbrainsMono)",
-    },
     extend: {
+      fontFamily:{
+        primary: ["var(--font-jetbrainsMono)", "monospace"],
+        chakraPetch: ['Chakra Petch','system-ui']
+      },
       colors:{
         primary: "#1c1c22",
         accent:{
