@@ -28,7 +28,7 @@ const Photo = () => {
             priority
             quality={100}
             fill
-            className="object-cover scale-[0.8]" // Changed from object-contain to object-cover
+            className="object-cover scale-[0.85]" // Changed from object-contain to object-cover
           />
         </motion.div>
 
@@ -42,7 +42,7 @@ const Photo = () => {
           <motion.circle
             cx="253"
             cy="253"
-            r="250"
+            r="230"
             stroke="#ffa500"
             strokeWidth="4"
             strokeLinecap="round"
