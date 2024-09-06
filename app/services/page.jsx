@@ -8,28 +8,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dolor nisl.",
+      "I specialize in building responsive, user-friendly websites that meet modern web standards. From front-end to back-end, I can help you create a fully functional and visually appealing online presence.",
     href: "",
   },
   {
     num: "02",
     title: "UI/UX",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dolor nisl.",
+      "Designing seamless and intuitive user experiences is my passion. I focus on creating user interfaces that are both visually striking and easy to navigate, ensuring your customers get the best interaction possible.",
     href: "",
   },
   {
     num: "03",
     title: "Graphic Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dolor nisl.",
+      "I create impactful posters, banners, and infographics that effectively communicate your message. Whether for digital platforms or print, my designs are tailored to meet your branding and marketing needs.",
     href: "",
   },
   {
     num: "04",
-    title: "Photo & Video Editing",
+    title: "Photos & Videos Editing",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dolor nisl.",
+      "Enhance your visual content with professional editing services. From photos to videos, I bring a creative touch to ensure your media tells a compelling story and captivates viewers.",
     href: "",
   },
 ];
