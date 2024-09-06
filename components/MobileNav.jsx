@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Button } from "./ui/button";
 
 const links = [
   {
@@ -22,10 +23,6 @@ const links = [
   {
     name: "work",
     path: "/work",
-  },
-  {
-    name: "contact",
-    path: "/contact",
   },
 ];
 
@@ -62,6 +59,9 @@ const MobileNav = () => {
               </Link>
             );
           })}
+          <Link href="/contact">
+            <Button className="font-chakraPetch">Contact Me</Button>
+          </Link>
         </nav>
       </SheetContent>
     </Sheet>
