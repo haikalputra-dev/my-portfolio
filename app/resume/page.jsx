@@ -61,7 +61,7 @@ const experience = {
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
   items: [
     {
-      company: "Amerta Indah Otsuka",
+      company: "PT. Amerta Indah Otsuka",
       position: "Web Developer",
       duration: "August 2024 - Present",
     },
@@ -71,7 +71,7 @@ const experience = {
       duration: "July 2023 - March 2024",
     },
     {
-      company: "Pt. Arkamaya Software House",
+      company: "PT. Arkamaya Software House",
       position: "Web Developer",
       duration: "January 2020 - March 2020",
     },
@@ -105,7 +105,7 @@ const education = {
 //skills data
 const skills = {
   icon: "/assets/resume/badge.svg",
-  title: "My education",
+  title: "My skills",
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
   items: [
     {

@@ -11,11 +11,14 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/">
-          <h1 className="text-4xl font-chakraPetch font-bold">
-            haikalputra-dev<span className="text-accent">;</span>
-          </h1>
+          <img 
+            src="/assets/haikalPutra-dev11.png" // Change this path to the actual path of your image
+            alt="Logo"
+            className="w-auto h-auto" // Adjust the width and height as needed
+            style={{ maxHeight: '48px', maxWidth: 'auto' }} // Adjust this inline style for more control
+          />
         </Link>
-        {/* desktop nav & hire me btn*/}
+        {/* desktop nav & hire me btn */}
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
           <Link href="/contact">
@@ -29,6 +32,7 @@ const Header = () => {
         </div>
       </div>
     </header>
+
   );
 };
 

@@ -37,14 +37,15 @@ const MobileNav = () => {
         <CiMenuFries className="text-[32px] text-accent" />
       </SheetTrigger>
       <SheetContent className="flex flex-col overflow-y-auto h-screen">
-        {/* logo */}
-        <div className="mt-32 mb-40 text-center text-2xl">
-          <Link href="/">
-            <h1 className="text-4xl font-chakraPetch font-bold">
-              haikalputra-dev<span className="text-accent">;</span>
-            </h1>
-          </Link>
-        </div>
+        {/* Logo */}
+        <Link href="/">
+          <img 
+            src="/assets/haikalPutra-dev11.png" // Change this path to the actual path of your image
+            alt="Logo"
+            className="w-auto h-auto" // Adjust the width and height as needed
+            style={{ maxHeight: '48px', maxWidth: 'auto' }} // Adjust this inline style for more control
+          />
+        </Link>
         {/* nav */}
         <nav className="flex flex-col justify-center items-center gap-8">
           {links.map((link, index) => {
