@@ -20,6 +20,7 @@ import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
+  // cleary
   {
     num: "01",
     category: "FullStack",
@@ -36,8 +37,9 @@ const projects = [
     ],
     image: "/assets/work/3.png",
     live: "",
-    github: "",
+    github: "https://gitlab.com/arka.smkpasimsmi.haikal/cleary",
   },
+  // sisfo
   {
     num: "02",
     category: "FullStack",
@@ -54,7 +56,7 @@ const projects = [
     ],
     image: "/assets/work/1.png",
     live: "",
-    github: "",
+    github: "https://gitlab.com/arka.smkpasimsmi.axa/regna-smp",
   },
   {
     num: "03",
@@ -65,7 +67,7 @@ const projects = [
     stack: [{ name: "Android Java" }, { name: "Volley" }],
     image: "/assets/work/2.png",
     live: "",
-    github: "",
+    github: "https://gitlab.com/arka.smkpasimsmi.axa/regna-smp",
   },
   {
     num: "04",
@@ -76,7 +78,7 @@ const projects = [
     stack: [{ name: "React Native" }, { name: "Rest API" }],
     image: "/assets/work/4.png",
     live: "",
-    github: "",
+    github: "https://gitlab.com/arka.smkpasimsmi.haikal/identify",
   },
   {
     num: "05",
@@ -95,7 +97,7 @@ const projects = [
     ],
     image: "/assets/work/5.png",
     live: "",
-    github: "",
+    github: "https://github.com/haikalputra-dev/smart-garage",
   },
   {
     num: "06",
@@ -113,7 +115,7 @@ const projects = [
     ],
     image: "/assets/work/6.png",
     live: "",
-    github: "",
+    github: "https://github.com/haikalputra-dev/cafe-management-system",
   },
 ];
 

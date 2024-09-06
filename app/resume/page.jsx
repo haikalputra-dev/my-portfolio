@@ -26,7 +26,7 @@ import {
 const about = {
   title: "About me",
   description:
-    "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. voluptatiles quis nostrud ex",
+    "I'm a dedicated Web Developer and creative professional with over 4 years of experience in building websites and applications. My expertise spans a wide range of technologies, and I am passionate about solving problems with clean, efficient code. Fluent in Indonesian, English, and Sundanese, I thrive in collaborative environments and am always eager to take on new challenges.",
   info: [
     {
       fieldName: "Name",
@@ -58,7 +58,8 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  description:
+    "Over the years, I’ve had the privilege to work in diverse roles, sharpening my technical skills and creative problem-solving in the fields of web development, editing, designing and photography.",
   items: [
     {
       company: "PT. Amerta Indah Otsuka",
@@ -82,7 +83,8 @@ const experience = {
 const education = {
   icon: "/assets/resume/badge.svg",
   title: "My education",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  description:
+    "My academic journey has been driven by a passion for technology and software development. From mastering foundational programming skills in high school to diving deep into app development and computer engineering, I've continuously sought to expand my knowledge and stay at the forefront of tech innovations.",
   items: [
     {
       institution: "Politeknik Sukabumi",
@@ -106,7 +108,8 @@ const education = {
 const skills = {
   icon: "/assets/resume/badge.svg",
   title: "My skills",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  description:
+    "I have a diverse set of skills that span both front-end and back-end development, as well as design tools. These include foundational web technologies, modern frameworks, and design software that help me create efficient, user-friendly, and visually appealing applications.",
   items: [
     {
       icon: <FaHtml5 />,
@@ -324,14 +327,19 @@ const Resume = () => {
                   {about.description}
                 </p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
-                    {about.info.map((item,index)=>{
-                      return (
-                        <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
-                          <span className="text-white/60 font-light">{item.fieldName}</span>
-                          <span className="text-md">{item.fieldValue}</span>
-                        </li>
-                      );
-                    })}
+                  {about.info.map((item, index) => {
+                    return (
+                      <li
+                        key={index}
+                        className="flex items-center justify-center xl:justify-start gap-4"
+                      >
+                        <span className="text-white/60 font-light">
+                          {item.fieldName}
+                        </span>
+                        <span className="text-md">{item.fieldValue}</span>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             </TabsContent>
