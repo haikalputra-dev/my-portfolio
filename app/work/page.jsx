@@ -142,7 +142,7 @@ const Work = () => {
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* outline num */}
-              <div className="text-8xl leading-none font-extrabold font-chakraPetch text-transparent text-outline">
+              <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
                 {project.num}
               </div>
               {/* project title */}
@@ -202,6 +202,7 @@ const Work = () => {
               spaceBetween={30}
               slidesPerView={1}
               className="xl:h-[520px] mb-12"
+              
               onSlideChange={handleSlideChange}
             >
               {projects.map((project, index) => {
