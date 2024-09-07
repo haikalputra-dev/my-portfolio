@@ -28,8 +28,6 @@ const projects = [
     description:
       "An online platform that connects students with professional tutors for personalized learning experiences. Cleary offers a user-friendly interface for students to book sessions, access learning materials, and improve their skills with expert guidance.",
     stack: [
-      { name: "Html 5" },
-      { name: "css 3" },
       { name: "mysql" },
       { name: "php" },
       { name: "bootstrap 4" },
@@ -47,8 +45,6 @@ const projects = [
     description:
       "A public-facing school information website that provides details about the school's profile, gallery, teachers, achievements, student admissions (PPDB), and extracurricular activities. It serves as a comprehensive platform for parents, students, and the public to stay informed about the school.",
     stack: [
-      { name: "Html 5" },
-      { name: "css 3" },
       { name: "mysql" },
       { name: "php" },
       { name: "bootstrap 4" },
@@ -87,8 +83,6 @@ const projects = [
     description:
       "An online garage rental platform integrated with IoT-based smart-garage technology. WheelHouse allows users to rent garages, with features like RFID-based entry and real-time temperature monitoring, enhancing both security and convenience.",
     stack: [
-      { name: "Html 5" },
-      { name: "css" },
       { name: "mysql" },
       { name: "php" },
       { name: "bootstrap 5" },
@@ -106,8 +100,6 @@ const projects = [
     description:
       "A comprehensive cafe management platform designed to handle user accounts, product categories, inventory, customer orders, and billing processes. The system also features integrated reporting capabilities using JasperReports, providing detailed insights into sales, orders, and financial performance.",
     stack: [
-      { name: "Html 5" },
-      { name: "css" },
       { name: "mysql" },
       { name: "javascript" },
       { name: "angular 14" },
