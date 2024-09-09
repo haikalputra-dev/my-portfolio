@@ -35,7 +35,7 @@ const projects = [
     ],
     image: "/assets/work/3.png",
     live: "",
-    github: "https://gitlab.com/arka.smkpasimsmi.haikal/cleary",
+    github: "https://gitlab.com/haikalputra-dev/cleary",
   },
   // sisfo
   {
@@ -74,7 +74,7 @@ const projects = [
     stack: [{ name: "React Native" }, { name: "Rest API" }],
     image: "/assets/work/4.png",
     live: "",
-    github: "https://gitlab.com/arka.smkpasimsmi.haikal/identify",
+    github: "https://gitlab.com/haikalputra-dev/identify",
   },
   {
     num: "05",
