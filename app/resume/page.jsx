@@ -61,11 +61,16 @@ const experience = {
   description:
     "Over the years, I’ve had the privilege to work in diverse roles, sharpening my technical skills and creative problem-solving in the fields of web development, editing, designing and photography.",
   items: [
+        {
+      company: "PT. Glostar Indonesia",
+      position: "IT Staff",
+      duration: "June 2026 - Present",
+   },
     {
       company: "PT. Amerta Indah Otsuka",
       position: "Web Developer",
-      duration: "August 2024 - Present",
-    },
+      duration: "August 2024 - July 2025",
+  },
     {
       company: "Matching Fund Balai Sawala",
       position: "Photographer & Editor",
